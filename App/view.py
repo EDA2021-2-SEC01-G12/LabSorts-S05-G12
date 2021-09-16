@@ -129,7 +129,8 @@ while True:
         # TODO completar modificaciones para el laboratorio 4
         size = input("Indique tamaño de la muestra: ")
         result = controller.sortBooks(catalog, int(size))
-        print("Para la muestra de", size, " elementos, el tiempo (mseg) es: ",str(result[0]))
+        print("Para la muestra de", size, " elementos, el tiempo (mseg) es: ", str(result[0]))
+
         printSortResults(result[1])
 
     else:
